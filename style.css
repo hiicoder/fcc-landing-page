@@ -1,0 +1,21 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+#header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.8em 10%;
+	background-color: rgb(200, 200, 200);
+}
+	#nav-bar{
+		display: inline-flex;	
+	}
+	.nav-link{
+
+		padding: 0.2em 3em;	
+	}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
